@@ -1,5 +1,5 @@
 export interface AxiosResponseData {
-  params: any;
+  params: object;
   status: boolean;
   message: string;
 }

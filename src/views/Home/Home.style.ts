@@ -1,33 +1,45 @@
-import { makeStyles } from 'tss-react/mui'
+import { Box, Grid2, styled } from '@mui/material'
 
-const useStyles = makeStyles({
-  name: 'Home',
-  uniqId: 'home',
-})(() => {
-  return {
-    root: {},
-    slider: {
-      '& .slick-dots': {
-        bottom: 16,
-
-        '& li': {
-          margin: 0,
-
-          '& button': {
-            width: 15,
-            height: 15,
-            fontSize: 15,
-          },
-        },
-      },
-    },
-    mainContent: {
-      padding: '60px 24px 50px 24px',
-      display: 'flex',
-      flexDirection: 'column',
-      gap: 60,
-    },
-  }
+export const BannerSection = styled(Box)({
+  position: 'relative',
+  minHeight: '100vh',
+  width: '100%',
+  height: '100%',
+  backgroundColor: '#fff',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'start',
+  alignItems: 'center',
 })
 
-export default useStyles
+export const HomeSection = styled(Box)({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'start',
+  alignItems: 'center',
+  padding: '40px 20px',
+})
+
+export const EduItem = styled(Grid2)({
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'start',
+  alignItems: 'center',
+  padding: '20px',
+  textAlign: 'center',
+
+  '& img': {
+    borderRadius: '50%',
+    width: '240px',
+    height: '240px',
+  },
+
+  '& h2': {
+    fontSize: '20px',
+    marginBottom: '8px',
+  },
+
+  '& p': {
+    margin: 0,
+  },
+})

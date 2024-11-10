@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios'
 import { commonConfig } from '../configs'
 import { commonHelpers } from '../helpers'
@@ -65,7 +66,6 @@ formDataAxios.interceptors.response.use(
           refreshTokenPromise = axios
             .post(`${commonConfig.API_HOST}/auth/refresh`, { refreshToken })
             .then(({ data }) => {
-
               // Update cookies with new tokens
               setCookie(COOKIE_ACCESS_TOKEN, data.accessToken, { maxAge: MAX_AGE })
               setCookie(COOKIE_REFRESH_TOKEN, data.refreshToken, { maxAge: MAX_AGE })
