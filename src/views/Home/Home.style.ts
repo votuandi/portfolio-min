@@ -1,4 +1,4 @@
-import { Box, Grid2, styled } from '@mui/material'
+import { Box, Container, Grid2, styled } from '@mui/material'
 
 export const BannerSection = styled(Box)({
   position: 'relative',
@@ -12,7 +12,7 @@ export const BannerSection = styled(Box)({
   alignItems: 'center',
 })
 
-export const HomeSection = styled(Box)({
+export const HomeSection = styled(Container)({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'start',

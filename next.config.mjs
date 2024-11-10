@@ -5,6 +5,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  distDir: 'dist',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
