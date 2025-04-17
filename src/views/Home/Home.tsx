@@ -32,10 +32,18 @@ export default function Home() {
               <Box sx={{ width: isMobile ? '90%' : '80%', margin: '20px auto' }}>
                 <span style={{ fontFamily: 'Open Sans', fontSize: isMobile ? '24px' : '28px', fontWeight: 600 }}>Xin chào</span>
                 <h1 style={{ fontFamily: 'Itim', margin: 0, fontSize: isMobile ? '40px' : '48px' }}>Mình là Tuyết Minh</h1>
-                <span style={{ fontFamily: 'Open Sans', fontSize: isMobile ? '18px' : '20px', lineHeight: 1.5, marginTop: '8px', maxWidth: '80%' }}>
-                  Mình là sinh viên Cao Đẳng Phát Thanh Truyền Hình II.
+                <br />
+                <span style={{ fontFamily: 'Open Sans', fontSize: '16px', lineHeight: 1.5, maxWidth: '80%' }}>
+                  Mình là sinh viên năm cuối ngành Truyền thông đa phương tiện. Dù bắt đầu hành trình học tập muộn hơn nhiều bạn, nhưng mình luôn theo đuổi ngành này với sự nghiêm
+                  túc và đam mê thật sự.
                   <br />
-                  Mình rất yêu thích công việc truyền thông và mong muốn trở thành một Biên tập viên chuyên nghiệp.
+                  <br />
+                  Mình đặc biệt yêu thích các lĩnh vực như sản xuất nội dung, quay dựng video, và xây dựng chiến lược truyền thông. Qua từng bài tập, từng dự án, mình không ngừng
+                  rèn luyện kỹ năng và tư duy nghề.
+                  <br />
+                  <br />
+                  Portfolio này là tập hợp những sản phẩm tiêu biểu mình đã thực hiện trong quá trình học. Hy vọng sẽ phần nào thể hiện được năng lực, thái độ làm việc và tinh thần
+                  cầu tiến của mình.
                 </span>
               </Box>
             </Grid>
@@ -74,7 +82,7 @@ export default function Home() {
               <span>Họ tên: Võ Tuyết Minh</span>
               <span>Sinh ngày: 10/02/1995</span>
               <span>Điện thoại: 0765 039 909</span>
-              <span>E-mail: votuyetminh1002@gmail.com</span>
+              <span>E-mail: tuyeminh.vo95@gmail.com</span>
               <span>Địa chỉ: Thành phố Hồ Chí Minh</span>
             </Grid>
             <Grid
@@ -94,10 +102,9 @@ export default function Home() {
           <img src="/img/career-target.png" alt="" style={{ width: '200px' }} />
           <h1 style={{ fontFamily: 'Cormorant' }}>Mục tiêu nghề nghiệp</h1>
           <p style={{ fontFamily: 'Open Sans', maxWidth: '880px', textAlign: isMobile ? 'justify' : 'center', lineHeight: 1.6, fontSize: '18px' }}>
-            Là một sinh viên vừa tốt nghiệp ngành truyền thông với nền tảng kiến thức vững chắc và kinh nghiệm thực tế từ các dự án học tập cũng như hoạt động câu lạc bộ trong
-            trường, tôi mong muốn tìm kiếm cơ hội làm việc trong môi trường chuyên nghiệp để tiếp tục phát triển kỹ năng và học hỏi thêm về ngành truyền thông. Tôi đặc biệt quan
-            tâm đến lĩnh vực sáng tạo nội dung, marketing số và quản lý dự án truyền thông, mong muốn đóng góp giá trị cho doanh nghiệp qua những ý tưởng sáng tạo, cập nhật xu
-            hướng mới và tinh thần học hỏi không ngừng.
+            Tôi mong muốn tìm kiếm cơ hội thực tập và làm việc trong lĩnh vực Truyền thông – Sự kiện để rèn luyện kỹ năng viết kịch bản, biên tập, quay dựng và sản xuất nội dung
+            trong môi trường thực tế. Về dài hạn, tôi định hướng phát triển trở thành một nhà sáng tạo nội dung đa nền tảng, có khả năng dẫn dắt các dự án truyền thông chất lượng,
+            góp phần tạo ra giá trị bền vững cho doanh nghiệp và cộng đồng.
           </p>
           <span style={{ fontFamily: 'Cormorant', fontSize: '20px', fontWeight: 500, marginLeft: isMobile ? 'auto' : 0 }}> - Võ Tuyết Minh -</span>
         </HomeSection>
@@ -125,12 +132,12 @@ export default function Home() {
             <EduItem size={{ xs: 12, md: 4 }}>
               <img src="/img/vovc_edu.png" alt="" />
               <h2>Cao Đẳng Phát Thanh Truyền Hình II</h2>
-              <span>Chuyên ngành: Truyền thông đa phương tiện</span>
+              <span>Chuyên ngành:</span>
+              <span style={{ fontWeight: 600 }}>Truyền thông đa phương tiện</span>
               <p>
-                Hoàn thành xuất sắc các môn học, <br />
-                đặc biệt với các môn học chuyên ngành.
+                Hoàn thành xuất sắc các môn học, đặc biệt với các môn học chuyên ngành.
                 <br />
-                Học lực: Giỏi
+                GPA: 3.4/4.0
               </p>
             </EduItem>
             <EduItem size={{ xs: 12, md: 4 }}>
