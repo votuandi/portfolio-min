@@ -51,7 +51,7 @@ const AppHeader = () => {
           justifyContent: 'end',
           alignItems: 'center',
           gap: '24px',
-          fontFamily: 'Open Sans',
+          fontFamily: 'Quicksand',
           '& a': { textDecoration: 'none', color: '#000' },
         }}
       >

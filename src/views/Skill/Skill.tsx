@@ -4,7 +4,6 @@ import Grid from '@mui/material/Grid2'
 import { HomeSection } from './Skill.style'
 import { Box, Typography, useMediaQuery } from '@mui/material'
 import theme from '@/assets/theme'
-import GoogleDriveVideoPlayer from '@/components/GoogleDriveVideoPlayerProps'
 
 const skills = [
   {
@@ -86,14 +85,14 @@ export default function Home() {
                         >
                           {skill.description.map((s, ind) => (
                             <li key={ind}>
-                              <Typography variant="body1" sx={{ fontFamily: 'Open Sans' }}>
+                              <Typography variant="body1" sx={{ fontFamily: 'Quicksand' }}>
                                 {s}
                               </Typography>
                             </li>
                           ))}
                         </Box>
                       ) : (
-                        <Typography variant="body1" sx={{ fontFamily: 'Open Sans', marginTop: '14px' }}>
+                        <Typography variant="body1" sx={{ fontFamily: 'Quicksand', marginTop: '14px' }}>
                           {skill.description}
                         </Typography>
                       )}

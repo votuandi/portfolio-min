@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'start', alignItems: 'center' }}>
         <BannerSection>
-          <Grid container sx={{ height: '100vh', width: '100%', background: '#C1F4F4' }}>
+          <Grid container sx={{ height: '100vh', width: '100%', background: 'radial-gradient(circle, rgb(173, 250, 255) 67%, rgb(153, 219, 255) 100%)' }}>
             {!isMobile && (
               <Grid size={6} sx={{ position: 'relative', '& img': { width: '80%', position: 'absolute', bottom: 0 } }}>
                 <img src="/img/demo-banner.png" alt="" />
@@ -30,10 +30,10 @@ export default function Home() {
               sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', lineHeight: 1.2, height: isMobile ? '50vh' : '100vh' }}
             >
               <Box sx={{ width: isMobile ? '90%' : '80%', margin: '20px auto' }}>
-                <span style={{ fontFamily: 'Open Sans', fontSize: isMobile ? '24px' : '28px', fontWeight: 600 }}>Xin chào</span>
-                <h1 style={{ fontFamily: 'Itim', margin: 0, fontSize: isMobile ? '40px' : '48px' }}>Mình là Tuyết Minh</h1>
+                <span style={{ fontFamily: 'Quicksand', color: '#505050', fontSize: isMobile ? '24px' : '28px', fontWeight: 700 }}>Xin chào</span>
+                <h1 style={{ fontFamily: 'Itim', color: '#C2185B', margin: 0, fontSize: isMobile ? '40px' : '48px' }}>Mình là Tuyết Minh</h1>
                 <br />
-                <span style={{ fontFamily: 'Open Sans', fontSize: '16px', lineHeight: 1.5, maxWidth: '80%' }}>
+                <span style={{ fontFamily: 'Quicksand', fontSize: '16px', lineHeight: 1.5, maxWidth: '80%' }}>
                   Mình là sinh viên năm cuối ngành Truyền thông đa phương tiện. Dù bắt đầu hành trình học tập muộn hơn nhiều bạn, nhưng mình luôn theo đuổi ngành này với sự nghiêm
                   túc và đam mê thật sự.
                   <br />
@@ -72,7 +72,7 @@ export default function Home() {
               sx={{
                 textAlign: isMobile ? 'center' : 'right',
                 lineHeight: 2,
-                fontFamily: 'Open Sans',
+                fontFamily: 'Quicksand',
                 fontSize: '18px',
                 justifyContent: 'center',
                 display: 'flex',
@@ -101,7 +101,7 @@ export default function Home() {
         <HomeSection maxWidth={'xl'} sx={{ borderTop: '1px solid #c2c2c2' }}>
           <img src="/img/career-target.png" alt="" style={{ width: '200px' }} />
           <h1 style={{ fontFamily: 'Cormorant' }}>Mục tiêu nghề nghiệp</h1>
-          <p style={{ fontFamily: 'Open Sans', maxWidth: '880px', textAlign: isMobile ? 'justify' : 'center', lineHeight: 1.6, fontSize: '18px' }}>
+          <p style={{ fontFamily: 'Quicksand', maxWidth: '880px', textAlign: isMobile ? 'justify' : 'center', lineHeight: 1.6, fontSize: '18px' }}>
             Tôi mong muốn tìm kiếm cơ hội thực tập và làm việc trong lĩnh vực Truyền thông – Sự kiện để rèn luyện kỹ năng viết kịch bản, biên tập, quay dựng và sản xuất nội dung
             trong môi trường thực tế. Về dài hạn, tôi định hướng phát triển trở thành một nhà sáng tạo nội dung đa nền tảng, có khả năng dẫn dắt các dự án truyền thông chất lượng,
             góp phần tạo ra giá trị bền vững cho doanh nghiệp và cộng đồng.
@@ -134,30 +134,30 @@ export default function Home() {
               <h2>Cao Đẳng Phát Thanh Truyền Hình II</h2>
               <span>Chuyên ngành:</span>
               <span style={{ fontWeight: 600 }}>Truyền thông đa phương tiện</span>
-              <p>
+              <p style={{ fontFamily: 'Quicksand' }}>
                 Hoàn thành xuất sắc các môn học, đặc biệt với các môn học chuyên ngành.
                 <br />
-                GPA: 3.4/4.0
+                GPA: <b>3.4/4.0</b>
               </p>
             </EduItem>
             <EduItem size={{ xs: 12, md: 4 }}>
               <img src="/img/datphi.png" alt="" />
               <h2>Khóa Học Diễn Viên Lồng Tiếng Cơ Bản</h2>
               <span>Trung Tâm: Đạt Phi Media</span>
-              <p>
+              <p style={{ fontFamily: 'Quicksand' }}>
                 Kinh nghiệm về chuyển âm, lồng tiếng, kịch bản chuyển âm cho điện ảnh và TVC.
                 <br />
-                Tốt nghiệp: Xuất sắc
+                Tốt nghiệp:<b> Xuất sắc</b>
               </p>
             </EduItem>
             <EduItem size={{ xs: 12, md: 4 }}>
               <img src="/img/mc.png" alt="" />
               <h2>Khóa Học Dẫn Chương Trình Cơ Bản</h2>
               <span>Nhà Văn Hóa Thanh Niên TP. Hồ CHí Minh</span>
-              <p>
+              <p style={{ fontFamily: 'Quicksand' }}>
                 Tăng cường kiến thức, kỹ năng về dẫn chương trình, tổ chức các chương trình, sự kiện
                 <br />
-                Tốt nghiệp: Xuất sắc
+                Tốt nghiệp: <b>Xuất sắc</b>
               </p>
             </EduItem>
           </Grid>
