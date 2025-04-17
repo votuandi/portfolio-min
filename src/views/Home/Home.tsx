@@ -29,11 +29,11 @@ export default function Home() {
               size={{ xs: 12, md: 6 }}
               sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'start', lineHeight: 1.2, height: isMobile ? '50vh' : '100vh' }}
             >
-              <Box sx={{ width: isMobile ? '90%' : '80%', margin: isMobile ? '100px auto 20px auto' : '20px auto' }}>
+              <Box sx={{ width: isMobile ? '90%' : '80%', margin: '20px auto', paddingTop: isMobile ? '100px' : '0' }}>
                 <span style={{ fontFamily: 'Quicksand', color: '#505050', fontSize: isMobile ? '24px' : '28px', fontWeight: 700 }}>Xin chào</span>
                 <h1 style={{ fontFamily: 'Itim', color: '#C2185B', margin: 0, fontSize: isMobile ? '40px' : '48px' }}>Mình là Tuyết Minh</h1>
                 <br />
-                <span style={{ fontFamily: 'Quicksand', fontSize: '18px', lineHeight: 1.5, maxWidth: '80%' }}>
+                <span style={{ fontFamily: 'Quicksand', fontSize: isMobile ? '16px' : '18px', lineHeight: 1.5, maxWidth: '80%' }}>
                   Mình là sinh viên năm cuối ngành Truyền thông đa phương tiện. Dù bắt đầu hành trình học tập muộn hơn nhiều bạn, nhưng mình luôn theo đuổi ngành này với sự nghiêm
                   túc và đam mê thật sự.
                   <br />
