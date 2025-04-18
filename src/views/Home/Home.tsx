@@ -36,8 +36,12 @@ export default function Home() {
                 <span style={{ fontFamily: 'Quicksand', fontSize: isMobile ? '16px' : '18px', lineHeight: 1.5, maxWidth: '80%' }}>
                   Mình là sinh viên năm cuối ngành Truyền thông đa phương tiện. Dù bắt đầu hành trình học tập muộn hơn nhiều bạn, nhưng mình luôn theo đuổi ngành này với sự nghiêm
                   túc và đam mê thật sự.
-                  <br />
-                  <br />
+                  {!isMobile && (
+                    <>
+                      <br />
+                      <br />
+                    </>
+                  )}
                   Mình đặc biệt yêu thích các lĩnh vực như sản xuất nội dung, quay dựng video, và xây dựng chiến lược truyền thông. Qua từng bài tập, từng dự án, mình không ngừng
                   rèn luyện kỹ năng và tư duy nghề.
                   <br />

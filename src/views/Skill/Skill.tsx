@@ -60,7 +60,7 @@ export default function Home() {
               return (
                 <Grid container component="div" key={index} spacing={2} direction={isTextLeft ? 'row' : 'row-reverse'} alignItems="center" width="100%">
                   <Grid size={{ xs: 12, md: 6 }}>
-                    <Box sx={{ p: 3, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: isTextLeft ? 'end' : 'start' }}>
+                    <Box sx={{ p: 3, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: isMobile ? 'center' : isTextLeft ? 'end' : 'start' }}>
                       <Typography variant="h4" sx={{ fontFamily: 'Montserrat', fontWeight: 700 }}>
                         {skill.title}
                       </Typography>
